@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+/* .ladiv{
+    width: 1800px;
+    display: flex;
+    justify-content: space-around;
+}
+.cardplayer{
+    display: flex;
+}
+nav{
+    background-color: color(display-p3 0.107 0.129 0.118);
+    color: white;
+    height: 70px;
+}
+nav ul{
+    display: flex;
+    color: black;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+nav ul li{
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+} */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+.ladiv {
+    width: 1800px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cardplayer {
+    display: flex;
+    margin-top: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav {
+    background-color: #1b211e; /* Assurez-vous que cette valeur de couleur est correcte */
+    height: 70px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-around;
+    padding-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav ul li {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }

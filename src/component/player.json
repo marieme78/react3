@@ -1,0 +1,35 @@
+[
+    {
+      "nationalité": "Sénégalaise",
+      "numerodemaillot": 10,
+      "nom": "Mané",
+      "equipe": "Al-Nassr",
+      "age": 31,
+      "image": "https://www.footballdatabase.eu/images/photos/players/2022-2023/a_145/145917.jpg"
+    },
+    {
+      "nationalité": "Brésilienne",
+      "numerodemaillot": 10,
+      "nom": "Neymar",
+      "equipe": "Al-Hilal",
+      "age": 31,
+      "image": "https://www.sport.fr/wp-content/uploads/2023/08/Neymar-Jr.jpeg"
+    },
+    {
+      "nationalité": "Argentine",
+      "numerodemaillot": 10,
+      "nom": "Messi",
+      "equipe": "Inter Miami",
+      "age": 36,
+      "image": "https://i.pinimg.com/736x/cf/d3/91/cfd3916ec9a87887fb83eeb33322949f.jpg"
+    },
+    {
+      "nationalité": "Jamaique",
+      "numerodemaillot": 10,
+      "nom": "Sterling",
+      "equipe": "Chelsea FC",
+      "age": 29,
+      "image": "https://img.chelseafc.com/image/upload/f_auto,h_860,q_50/editorial/people/first-team/2023-24/Raheem_Sterling_profile_23-24_with_sponsor_avatar-removebg.png"
+    }
+  ]
+  
