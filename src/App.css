@@ -1,36 +1,9 @@
-/* .ladiv{
-    width: 1800px;
-    display: flex;
-    justify-content: space-around;
-}
-.cardplayer{
-    display: flex;
-}
-nav{
-    background-color: color(display-p3 0.107 0.129 0.118);
-    color: white;
-    height: 70px;
-}
-nav ul{
-    display: flex;
-    color: black;
-    list-style: none;
-    list-style-type: none;
-    text-decoration: none;
-    justify-content: space-around;
-    padding-top: 20px;
-}
-nav ul li{
-    list-style: none;
-    list-style-type: none;
-    text-decoration: none;
-    color: white;
-} */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 .ladiv {
     width: 1800px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-top: 50px;
 }
 
 .cardplayer {
@@ -39,7 +12,7 @@ nav ul li{
 }
 
 nav {
-    background-color: #1b211e; /* Assurez-vous que cette valeur de couleur est correcte */
+    background-color: color(display-p3 0.107 0.129 0.118); /* Assurez-vous que cette valeur de couleur est correcte */
     height: 70px;
 }
 
@@ -56,4 +29,31 @@ nav ul li {
     text-decoration: none;
     color: white;
     font-size: 20px;
+}
+.logo{
+    height: 45px;
+    width: 100px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.sousnav{
+    /* background-color: color(display-p3 0.102 0.193 0.379); */
+    /* background-image: url(https://s1.1zoom.me/b6444/484/Footbal_Ball_Lawn_562163_2560x1440.jpg); */
+    background-image: url(https://cap.img.pmdstatic.net/fit/https.3A.2F.2Fi.2Epmdstatic.2Enet.2Fcap.2F2021.2F02.2F24.2F43e05730-9af0-44c4-8ee8-5328dfa32f78.2Ejpeg/1200x630/focus-point/702%2C193/kylian-mbappe-reste-le-joueur-de-football-le-plus-cher-de-la-planete-1394971.jpg);
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 600px;
+    padding: 200px;
+}
+.momo{
+    color: white;
+    font-size: 50px;
+}
+.coco{
+    height: 200px;
+    width: 200px;
 }
