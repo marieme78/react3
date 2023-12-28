@@ -1,5 +1,5 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
-.ladiv {
+.item {
     width: 1800px;
     display: flex;
     justify-content: space-evenly;
@@ -12,7 +12,7 @@
 }
 
 nav {
-    background-color: color(display-p3 0.107 0.129 0.118); /* Assurez-vous que cette valeur de couleur est correcte */
+    background-color: color(display-p3 0.107 0.129 0.118); 
     height: 70px;
 }
 
@@ -56,4 +56,10 @@ nav ul li a{
 .coco{
     height: 200px;
     width: 200px;
+}
+.bouton{
+    justify-content: space-between;
+}
+.deletebtn{
+    margin-left: 10px;
 }
